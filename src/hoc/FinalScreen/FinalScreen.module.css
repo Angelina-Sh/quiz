@@ -1,0 +1,38 @@
+.FinalScreen {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+}
+.FinalScreen div {
+    display: block;
+    width: 600px;
+    height: 300px;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 14pt;
+}
+.FinalScreen div * {
+    margin: 25px 0;
+}
+.FinalScreen button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px; 
+    color: #5041b2;
+    font-size: 10pt;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.FinalScreen button:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+    transform: scale(0.95);
+}
